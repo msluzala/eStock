@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabele z bazy SQL</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Kategorie</h2>
+  <table>
+    <tr><th>id_kategorii</th><th>nazwa</th></tr>
+    <tr><td>1</td><td>Elektronika</td></tr>
+    <tr><td>2</td><td>Książki</td></tr>
+  </table>
+
+  <h2>Użytkownicy</h2>
+  <table>
+    <tr>
+      <th>id_uzytkownika</th><th>imie</th><th>nazwisko</th><th>login</th>
+      <th>mail</th><th>haslo</th><th>data_rejestracj_
