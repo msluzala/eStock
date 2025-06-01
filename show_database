@@ -32,4 +32,42 @@
   <table>
     <tr>
       <th>id_uzytkownika</th><th>imie</th><th>nazwisko</th><th>login</th>
-      <th>mail</th><th>haslo</th><th>data_rejestracj_
+      <th>mail</th><th>haslo</th><th>data_rejestracji</th><th>zdjecie_profilowe</th>
+    </tr>
+    <tr>
+      <td>1</td><td>Anna</td><td>Kowalska</td><td>annak</td>
+      <td>anna@example.com</td><td>••••</td><td>2024-01-10</td><td>anna.jpg</td>
+    </tr>
+  </table>
+
+  <h2>Produkty</h2>
+  <table>
+    <tr>
+      <th>id_produktu</th><th>nazwa</th><th>id_sprzedajacego</th><th>opis</th>
+      <th>id_kategorii</th><th>cena</th><th>data_dodania</th><th>link_do_pobrania</th><th>zdjecia</th>
+    </tr>
+    <tr>
+      <td>1</td><td>Smartfon XYZ</td><td>1</td><td>Nowoczesny telefon</td>
+      <td>1</td><td>1299.99</td><td>2024-02-05</td><td>link.zip</td><td>foto.jpg</td>
+    </tr>
+  </table>
+
+  <h2>Zamówienia</h2>
+  <table>
+    <tr>
+      <th>id_zamowienia</th><th>id_klienta</th><th>id_sprzedajacego</th><th>id_produktu</th>
+      <th>cena_koszyka</th><th>status_platnosci</th><th>data_zamowienia</th>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td>1</td><td>1</td><td>1299.99</td><td>Opłacone</td><td>2024-02-06</td>
+    </tr>
+  </table>
+
+  <h2>Promocje</h2>
+  <table>
+    <tr><th>kod_rabatowy</th><th>zasady_promocji</th><th>znizka</th><th>data_waznosci</th></tr>
+    <tr><td>SUMMER10</td><td>10% na wszystko</td><td>10.00</td><td>2024-08-01</td></tr>
+  </table>
+
+</body>
+</html>
