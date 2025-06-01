@@ -1,0 +1,287 @@
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+.footer-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #ededed;
+}
+.na-estock-znajdziesz {
+  	position: absolute;
+  	width: 100%;
+  	top: 25%;
+  	left: 0%;
+  	line-height: 24px;
+  	display: inline-block;
+}
+.o-nas1 {
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+  	line-height: 24px;
+  	text-transform: uppercase;
+}
+.o-nas {
+  	width: 223px;
+  	position: relative;
+  	height: 192px;
+}
+.zoba-pene-wersj {
+  	position: absolute;
+  	width: 462.5%;
+  	top: 0%;
+  	left: 0%;
+  	line-height: 24px;
+  	display: inline-block;
+}
+.link {
+  	position: absolute;
+  	height: 15.09%;
+  	width: 65.78%;
+  	top: 84.91%;
+  	right: 34.22%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.twoje-dane-s {
+  	position: absolute;
+  	width: 99.11%;
+  	top: 30.19%;
+  	left: 0.89%;
+  	line-height: 24px;
+  	display: inline-block;
+}
+.regulamin {
+  	width: 225px;
+  	position: relative;
+  	height: 159px;
+}
+.kontaktestockpl {
+  	margin: 0;
+}
+.kontaktestockpl-poniedziae {
+  	position: absolute;
+  	width: 100%;
+  	top: 33.33%;
+  	left: 0%;
+  	line-height: 24px;
+  	display: inline-block;
+}
+.kontakt {
+  	width: 223px;
+  	position: relative;
+  	height: 144px;
+}
+.instagram-icon {
+  	position: absolute;
+  	height: 33.33%;
+  	width: 11.16%;
+  	top: 66.67%;
+  	right: 88.84%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.facebook-icon {
+  	position: absolute;
+  	height: 33.33%;
+  	width: 11.16%;
+  	top: 66.67%;
+  	right: 62.79%;
+  	bottom: 0%;
+  	left: 26.05%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.media-spoecznociowe {
+  	width: 215px;
+  	position: relative;
+  	height: 72px;
+}
+.o-nas-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1328px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.informacja {
+  	position: absolute;
+  	top: 32px;
+  	left: 56px;
+  	width: 1328px;
+  	height: 192px;
+}
+.footer {
+  	position: absolute;
+  	top: 779px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 296px;
+}
+.image-young-ceo-manager-korean-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 780px;
+  	object-fit: cover;
+}
+.text {
+  	position: relative;
+  	line-height: 24px;
+}
+.button {
+  	border-radius: 99999px;
+  	background-color: #0062ff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 24px;
+}
+.text1 {
+  	position: relative;
+  	line-height: 24px;
+  	cursor: pointer;
+}
+.button1 {
+  	border-radius: 999999px;
+  	border: 1px solid #0062ff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 24px;
+  	color: #0062ff;
+}
+.buttons {
+  	position: absolute;
+  	top: 474px;
+  	left: 56px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 12px;
+  	color: #fff;
+}
+.docz-si-do {
+  	position: absolute;
+  	top: 276px;
+  	left: 56px;
+  	font-size: 48px;
+  	line-height: 56px;
+  	display: inline-block;
+  	width: 564px;
+}
+.estock-1-icon {
+  	position: absolute;
+  	top: 8px;
+  	left: 0px;
+  	width: 146px;
+  	height: 32px;
+  	overflow: hidden;
+}
+.e-booki {
+  	position: absolute;
+  	top: 16px;
+  	left: 210px;
+  	line-height: 24px;
+}
+.szablony {
+  	position: absolute;
+  	top: 16px;
+  	left: 293px;
+  	line-height: 24px;
+}
+.szukaj {
+  	position: relative;
+  	line-height: 150%;
+}
+.magnifying-glass-icon {
+  	width: 16px;
+  	position: relative;
+  	max-height: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.search {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 99999px;
+  	background-color: #fff;
+  	width: 258px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 8px 16px;
+  	box-sizing: border-box;
+  	gap: 0px;
+}
+.account-icon {
+  	position: absolute;
+  	top: 8px;
+  	left: 282px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+}
+.shopping-bag-icon {
+  	position: absolute;
+  	top: 8px;
+  	left: 330px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+}
+.search-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 966px;
+  	width: 354px;
+  	height: 40px;
+  	color: #7e7e7e;
+  	font-family: Roboto;
+}
+.audio {
+  	position: absolute;
+  	top: 16px;
+  	left: 387px;
+  	line-height: 24px;
+}
+.header {
+  	position: absolute;
+  	top: 32px;
+  	left: 56px;
+  	width: 1320px;
+  	height: 40px;
+}
+.gwny-ekran {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 1075px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #000;
+  	font-family: Inter;
+}
+
