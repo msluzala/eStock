@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eStock - Strona główna</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="head_and_foot.css" />
+    <meta charset="UTF-8" />
+    <script src="head_and_foot.js"></script>
+    
+<!-- header -->
+
+<header class="header">
+  <div class="left-section">
+    <img src="eStock_1.svg" alt="eStock logo" class="logo" />
+    <nav class="nav-links">
+      <a href="#">E-booki</a>
+      <a href="#">Szablony</a>
+      <a href="#">Audio</a>
+    </nav>
+  </div>
+  <div class="search-container">
+    <form id="search-form" class="search-box" action="wyniki-wyszukiwania.html" method="GET">
+      <input type="text" id="search" name="q" placeholder="Szukaj" required />
+      <button type="submit" class="search-button">
+        <img src="magnifying-glass.svg" alt="Search icon" />
+      </button>
+    </form>
+  
+    <div class="sell-button" onclick="location.href='sell-your-product.html'">
+        <div class="text">Sprzedaj</div>
+    </div>
+    <img src="shopping-bag.svg" alt="Cart" class="icon" onclick="location.href='cart.html'" />
+    <img src="account.svg" alt="Account" class="icon" onclick="location.href='account.html'" />
+  </div>
+</header>
+
+<!-- main text -->
+
+
+
+<!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-content">
+        <div class="column">
+            <h3>O nas</h3>
+            <p>Na eStock znajdziesz cyfrowe produkty gotowe do pobrania — szybko, łatwo i wygodnie. Stworzone z myślą o studentach, twórcach i freelancerach.</p>
+        </div>
+        <div class="column">
+            <h3>Regulamin</h3>
+            <p class="spaced">Twoje dane są bezpieczne. Nie udostępniamy ich osobom trzecim.</p>
+            <p>Zobacz pełną wersję</p>
+        </div>
+        <div class="column">
+            <h3>Kontakt</h3>
+            <p>kontakt@estock.pl</p>
+            <p>Poniedziałek – Piątek:<br>9:00–17:00</p>
+        </div>
+        <div class="column">
+            <h3>Media społecznościowe</h3>
+            <div class="socials">
+            <img src="instagram.svg" alt="Instagram" />
+            <img src="facebook.svg" alt="Facebook" />
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

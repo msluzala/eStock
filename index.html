@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eStock - Strona główna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header class="header">
+  <div class="left-section">
+    <img src="eStock_1.svg" alt="eStock logo" class="logo" />
+    <nav class="nav-links">
+      <a href="#">E-booki</a>
+      <a href="#">Szablony</a>
+      <a href="#">Audio</a>
+    </nav>
+  </div>
+  <div class="search-container">
+    <form id="search-form" class="search-box" action="wyniki-wyszukiwania.html" method="GET">
+      <input type="text" id="search" name="q" placeholder="Szukaj" required />
+      <button type="submit" class="search-button">
+        <img src="magnifying-glass.svg" alt="Search icon" />
+      </button>
+    </form>
+  
+    <div class="sell-button" onclick="location.href='sell-your-product.html'">
+        <div class="text">Sprzedaj</div>
+    </div>
+    <img src="shopping-bag.svg" alt="Cart" class="icon" onclick="location.href='cart.html'" />
+    <img src="account.svg" alt="Account" class="icon" onclick="location.href='account.html'" />
+  </div>
+</header>
+
+  <main class="main">
+    <img src="image-young-ceo-manager-korean-working-woman-holding-tablet-smiling-standing-white-background_1.jpg" alt="Hero image" class="hero" />
+    <div class="main-content">
+      <h1>Dołącz się do platformy pobrania produktów cyfrowych</h1>
+      <div class="buttons">
+        <button class="btn login" onclick="location.href='login.html'">Zaloguj</button>
+        <button class="btn register" onclick="location.href='register.html'">Zarejestruj</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+        <div class="footer-content">
+        <div class="column">
+            <h3>O nas</h3>
+            <p>Na eStock znajdziesz cyfrowe produkty gotowe do pobrania — szybko, łatwo i wygodnie. Stworzone z myślą o studentach, twórcach i freelancerach.</p>
+        </div>
+        <div class="column">
+            <h3>Regulamin</h3>
+            <p >Twoje dane są bezpieczne. Nie udostępniamy ich osobom trzecim.</p>
+            <p class="regulamin" onclick="location.href='regulamin.html'">Zobacz pełną wersję</p>
+        </div>
+        <div class="column">
+            <h3>Kontakt</h3>
+            <p>kontakt@estock.pl</p>
+            <p>Poniedziałek – Piątek:<br>9:00–17:00</p>
+        </div>
+        <div class="column">
+            <h3>Media społecznościowe</h3>
+            <div class="socials">
+            <img src="instagram.svg" alt="Instagram" />
+            <img src="facebook.svg" alt="Facebook" />
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

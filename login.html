@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="login.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+  	<script src="login.js"></script>
+
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="logowanie">
+    	<header class="header">
+  <div class="left-section">
+    <img src="eStock_1.svg" alt="eStock logo" class="logo" />
+    <nav class="nav-links">
+      <a href="#">E-booki</a>
+      <a href="#">Szablony</a>
+      <a href="#">Audio</a>
+    </nav>
+  </div>
+  <div class="search-container">
+    <form id="search-form" class="search-box" action="wyniki-wyszukiwania.html" method="GET">
+      <input type="text" id="search" name="q" placeholder="Szukaj" required />
+      <button type="submit" class="search-button">
+        <img src="magnifying-glass.svg" alt="Search icon" />
+      </button>
+    </form>
+  
+    <div class="sell-button" onclick="location.href='sell-your-product.html'">
+        <div class="text">Sprzedaj</div>
+    </div>
+    <img src="shopping-bag.svg" alt="Cart" class="icon" onclick="location.href='cart.html'" />
+    <img src="account.svg" alt="Account" class="icon" onclick="location.href='account.html'" />
+  </div>
+</header>
+
+		<div class="main-content">
+  <div class="zaloguj-sie">
+    <form id="login-form">
+      <b class="zaloguj-sie1">Zaloguj się</b>
+
+      <div class="e-mail">
+        <input type="text" id="email" placeholder="E-mail..." />
+      </div>
+
+      <div class="haslo">
+        <input type="password" id="password" placeholder="Hasło..." />
+      </div>
+
+      <div id="error-message" class="error-message" style="display: none;">
+        Nieprawidłowy e-mail lub hasło
+      </div>
+
+      <button type="submit" class="kontynuuj">Kontynuuj</button>
+
+      <div class="wroc-do-rejestracji">
+        <div class="text">Wróć do rejestracji</div>
+      </div>
+
+      <div class="nie-pamietasz-hasla">Nie pamiętasz hasła?</div>
+    </form>
+  </div>
+</div>
+    		
+            <footer class="footer">
+        <div class="footer-content">
+        <div class="column">
+            <h3>O nas</h3>
+            <p>Na eStock znajdziesz cyfrowe produkty gotowe do pobrania — szybko, łatwo i wygodnie. Stworzone z myślą o studentach, twórcach i freelancerach.</p>
+        </div>
+        <div class="column">
+            <h3>Regulamin</h3>
+            <p class="spaced">Twoje dane są bezpieczne. Nie udostępniamy ich osobom trzecim.</p>
+            <p>Zobacz pełną wersję</p>
+        </div>
+        <div class="column">
+            <h3>Kontakt</h3>
+            <p>kontakt@estock.pl</p>
+            <p>Poniedziałek – Piątek:<br>9:00–17:00</p>
+        </div>
+        <div class="column">
+            <h3>Media społecznościowe</h3>
+            <div class="socials">
+            <img src="instagram.svg" alt="Instagram" />
+            <img src="facebook.svg" alt="Facebook" />
+            </div>
+        </div>
+        </div>
+    </footer>
+  	</div>
+  	
+  	
+  	
+  	
+</body>
+</html>
