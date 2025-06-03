@@ -36,18 +36,17 @@
   text-decoration: none;
   color: #000;
 }
-
 .search-container {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 .search-box {
-  background: #fff;
+background: #fff;
   border-radius: 999px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding: 8px 16px;
   color: #7e7e7e;
   font-family: 'Roboto', sans-serif;
@@ -56,26 +55,6 @@
   height: 40px;
   font-size: 16px;
 }
-
-.search-box input {
-  border: none;
-  outline: none;
-  font-size: 16px;
-  flex: 1;
-  height: 100%;
-  background: transparent;
-}
-
-.search-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 .sell-button {
   background-color: #0062ff;
@@ -157,8 +136,6 @@
 }
 
 /* main text */
-
-
 
 body {
   font-family: 'Inter', sans-serif;
@@ -282,7 +259,7 @@ html, body {
   margin-top: 16px;
 }
 
-.wroc-do-rejestracji {
+.zarejestruj-sie {
   margin-top: 16px;
   width: 100%;
   padding: 12px 24px;
@@ -299,7 +276,10 @@ html, body {
   margin-top: 16px;
   text-align: center;
   font-size: 14px;
-  color: #000000;
+  color: #0062ff;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .error {
